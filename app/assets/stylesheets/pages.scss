@@ -1,0 +1,28 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+a {
+  color: rgb(96, 176, 230);
+  &:hover {
+    color: rgb(60, 71, 165);
+  }
+}
+.container{
+  margin: 10px 20px;
+  padding: 10px 10px;
+  width: 900px;
+  text-align: left;
+}
+p{
+  color: gray;
+  font-family: 'Lucida Sans';
+  font-size: 16px;
+}

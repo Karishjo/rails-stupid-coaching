@@ -1,0 +1,45 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1{
+  font-weight: lighter;
+  font-family: Verdana, sans-serif;
+  color: #3e3332;
+  }
+
+  label{
+    color: #3d3a3a;
+    font-weight: lighter;
+    font-family: Verdana, sans-serif;
+    margin: 10px 0px;
+  }
+  .ques{
+    width: 680px;
+    border-color: #d3cece;
+    border-radius: 3px;
+  }
+.ans-container{
+  width: 560px;
+  background-color: #ffffe1;
+  border-left: 5px solid #dddddd;
+  align-items: center;
+  margin: 28px 10px;
+  padding: 12px 10px;
+}
+.ques-container{
+  width: 560px;
+  border-left: 5px solid #dddddd;
+  align-items: center;
+  margin: 28px 10px;
+  padding: 12px 10px;
+}
+.ans-container p{
+  font-style: italic;
+  margin-top: 6px;
+  font-size: smaller;
+}
+.ques-container p{
+  font-style: italic;
+  margin-top: 6px;
+  font-size: smaller;
+}
